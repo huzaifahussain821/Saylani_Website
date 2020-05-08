@@ -1,0 +1,146 @@
+body{
+
+    /* background-color: rgb(49, 153, 105); */
+    /* background-color: cadetblue; */
+    color: white;
+}
+
+heading{
+
+    width: 100;
+    height: 100;
+    background-color: rgb(67, 67, 241);
+}
+
+table {
+
+   /* background-color: rgb(113, 113, 240);  */
+   background-color:rgb(19, 134, 138); 
+   border-radius: 15px;
+   
+   
+}
+.table_header_button  {
+    margin-left: 10%;
+    /* vertical-align: top; */
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 200;
+
+}
+
+
+
+p>h3  {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+ color: green;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: darkolivegreen; */
+}
+
+button+a {
+   text-decoration: none;
+}
+
+button [type="submit"] {
+    text-decoration: none;
+    color: black;
+}
+input[type=submit]{
+    float: center;
+    padding: 5px;
+    margin-left:15px;
+    border: 1px solid cadetblue;
+    font-size: 13px;
+    width: 80px;
+    color: black;
+    
+
+}
+
+input[type=reset]{
+    float: center;
+    padding: 5px;
+    margin-left:4px;
+    border: 1px solid cadetblue;
+    font-size: 13px;
+    width: 80px;
+    color: black;
+    
+}
+
+input[type=submit]:hover{
+     background-color:cadetblue ;
+    color: white; 
+    border-radius: 5px;
+    border: royalblue;
+    
+    
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 30px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+border: royalblue;
+
+}
+input[type=reset]:hover{
+    background-color:cadetblue ;
+    color: white; 
+    border-radius: 5px;
+    border: royalblue;
+    
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+
+}
+
+input[type=text]:hover{
+    background-color: cadetblue;
+    color: black;
+    
+}
+input[type=address]:hover{
+    background-color: cadetblue;
+    color: black;
+    
+}
+
+input[type=email]:hover{
+    background-color: cadetblue;
+    color: black;
+    
+}
+input[type=password]:hover{
+    background-color: cadetblue;
+    color: black;
+    
+}
+input[type=text]:focus{
+    background-color: cadetblue;
+    color: black;
+    
+}
+input[type=address]:focus{
+    background-color: cadetblue;
+    color: black;
+    
+}
+
+input[type=email]:focus{
+    background-color: cadetblue;
+    color: black;
+    
+}
+input[type=password]:focus{
+    background-color: cadetblue;
+    color: black;
+    
+}
